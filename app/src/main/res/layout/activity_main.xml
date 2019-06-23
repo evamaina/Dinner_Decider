@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
-        tools:context=".MainActivity" android:id="@+id/addFoodBtn">
+        tools:context=".MainActivity" >
 
     <TextView
             android:layout_width="wrap_content"
@@ -39,12 +39,12 @@
             android:id="@+id/addFoodTxt"
             android:hint="add new food..." android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginBottom="80dp" app:layout_constraintBottom_toTopOf="@+id/button2"/>
+            android:layout_marginBottom="80dp" app:layout_constraintBottom_toTopOf="@+id/addFoodBtn"/>
     <Button
             android:text="ADD FOOD"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" android:background="@color/colorPrimary"
+            android:id="@+id/addFoodBtn" android:background="@color/colorPrimary"
             android:textColor="@android:color/background_light" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginBottom="70dp" app:layout_constraintBottom_toTopOf="@+id/decideBtn"/>
